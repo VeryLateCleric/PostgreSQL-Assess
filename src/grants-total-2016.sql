@@ -1,0 +1,3 @@
+SELECT SUM(amount) AS SUM_2016
+FROM grants
+WHERE EXTRACT(YEAR FROM fiscal_year) = 2016;
